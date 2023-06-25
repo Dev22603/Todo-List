@@ -1,0 +1,71 @@
+.inputField{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    padding: 0.5rem;
+    margin: 1rem ;
+    border-radius: 12px;
+    background-color: #8dff5d;
+    width: 700px;
+
+}
+input{
+    border-radius: 30px;
+    border: 0;
+    outline:0;
+    font-size: 20px;
+    width:100px;
+}
+label{
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.TName{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 1rem ;
+    border-radius: 12px;
+    background-color: #ff9a9a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.TDuration{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+
+    margin: 1rem ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background-color: #ff9a9a;
+}
+button{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+
+    margin: 1rem ;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #ff9a9a;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
