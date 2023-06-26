@@ -18,12 +18,6 @@ function InputTask(props) {
 
 
 
-
-
-
-
-
-
   const submitHandler = (event) => {
     event.preventDefault();
     const todo={
@@ -32,7 +26,7 @@ function InputTask(props) {
     };
     console.log(todo);
     props.onSaveTodo(todo);
-    
+   
     setEnteredName('');
     setEnteredDuration('');
     
