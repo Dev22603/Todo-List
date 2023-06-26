@@ -6,7 +6,11 @@ const Tasks = (props) => {
   return (
     <Card className="TaskBox">
       {props.todoList.map((todo) => (
-        <TaskItem taskName={todo.name} taskDuration={todo.duration} />
+        <TaskItem
+          taskName={todo.name}
+          taskDuration={todo.duration}
+          key={todo.id}
+        />
       ))}
     </Card>
   );

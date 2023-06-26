@@ -24,7 +24,7 @@ function InputTask(props) {
       name:enteredName,
       duration:enteredDuration
     };
-    console.log(todo);
+    // console.log(todo);
     props.onSaveTodo(todo);
    
     setEnteredName('');

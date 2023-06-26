@@ -4,8 +4,9 @@ import InputTask from "./components/InputTask";
 import React, { useEffect, useState } from "react";
 import moment from "moment";
 import $ from "jquery";
+import NewTask from "./components/NewTask";
 
-const Initialtodos = [
+const initialTodos = [
   {
     id: 0,
     name: "Codeforces",
@@ -24,7 +25,7 @@ const Initialtodos = [
 ];
 
 function App() {
-  const [Todos, setTodos] = useState(Initialtodos);
+  const [Todos, setTodos] = useState(initialTodos);
 
   const addTodoHandler = (Todo) => {
     setTodos((prevTodos) => {
@@ -75,8 +76,9 @@ function App() {
 
   return (
     <div>
-      <InputTask onSaveTodo={addTodoHandler}></InputTask>
-      <Tasks todoList={Todos}> </Tasks>
+      <NewTask onAddTodo={addTodoHandler}/>
+  
+      <Tasks todoList={Todos}/>
     </div>
   );
 }
