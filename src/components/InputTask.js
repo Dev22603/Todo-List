@@ -61,6 +61,7 @@ function InputTask(props) {
             id="TaskDuration"
             value={enteredDuration}
             onChange={durationChangeHandler}
+            min={0}
           />
         </div>
         <div className="TUrgency">
