@@ -12,7 +12,7 @@ const NewTask = (props) => {
     props.onAddTodo(Todo);
   };
   return (
-    <div className="new-todo">
+    <div className="inputField">
       <InputTask onSaveTodo={saveTodoDataHandler} />
     </div>
   );

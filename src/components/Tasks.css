@@ -1,7 +1,11 @@
 .TaskBox {
   padding: 1rem;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(32, 32, 32);
   margin: 2rem auto;
-  width: 50rem;
-  max-width: 95%;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 95%; */
 }

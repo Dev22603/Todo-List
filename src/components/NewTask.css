@@ -1,0 +1,35 @@
+.inputField{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    padding: 0.5rem;
+    margin: 1rem ;
+    border-radius: 12px;
+    background-color: rgb(32, 32, 32);
+    width: 700px;
+    text-align: center;
+
+
+}
+
+.inputField button{
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    margin: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background-color: #0c4c90;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.inputField button:hover,
+.inputField button:active{
+    background-color: #095cb5;
+    border-color: #0375f0;
+}

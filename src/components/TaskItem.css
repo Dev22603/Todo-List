@@ -1,13 +1,13 @@
-.Taskbox {
+.Task {
     display: flex;
-    justify-content: space-between ;
+    justify-content:space-between ;
     align-items: center; 
     box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
     padding: 0.5rem;
     margin: 1rem ;
     border-radius: 12px;
     background-color: #4b4b4b;
-    width: 700px;
+    width: 850px;
 }
 .Name{
     display: flex;
@@ -33,4 +33,34 @@
     background-color: #ff9a9a;
     
 }
-  
+
+.Urgency{
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    
+    margin: 1rem ;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+    background-color: #161616;
+    color: rgb(255, 255, 255);
+
+}
+.Importance{
+    
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; 
+    box-shadow: 0 2px 8px rgba(0, 0, 1, 25);
+    
+    margin: 1rem ;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 12px;
+    background-color: #161616;
+    color: rgb(255, 255, 255);
+
+}

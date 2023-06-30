@@ -6,30 +6,30 @@ import moment from "moment";
 import $ from "jquery";
 import NewTask from "./components/NewTask";
 
-const initialTodos = [
-  {
-    id: 0,
-    name: "Codeforces",
-    duration: 2,
-  },
-  {
-    id: 1,
-    name: "React Project",
-    duration: 1,
-  },
-  {
-    id: 2,
-    name: "Space Reading",
-    duration: 1,
-  },
-];
-
-
-
-
 // const initialTodos = [
-
+//   {
+//     id: 0,
+//     name: "Codeforces",
+//     duration: 2,
+//   },
+//   {
+//     id: 1,
+//     name: "React Project",
+//     duration: 1,
+//   },
+//   {
+//     id: 2,
+//     name: "Space Reading",
+//     duration: 1,
+//   },
 // ];
+
+
+
+
+const initialTodos = [
+
+];
 
 
 
