@@ -44,3 +44,10 @@ body{
   transition-duration: 8s;
 
 }
+.Outer-Div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px ;
+}

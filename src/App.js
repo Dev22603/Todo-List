@@ -24,16 +24,7 @@ import NewTask from "./components/NewTask";
 //   },
 // ];
 
-
-
-
-const initialTodos = [
-
-];
-
-
-
-
+const initialTodos = [];
 
 function App() {
   const [Todos, setTodos] = useState(initialTodos);
@@ -41,7 +32,7 @@ function App() {
   const addTodoHandler = (Todo) => {
     setTodos((prevTodos) => {
       //Here the prevTodos automatically receives the previous state snapshot of the react for that state for which you are calling the updating function
-// As explained in the 76th video of Udemy tutorial in section 5
+      // As explained in the 76th video of Udemy tutorial in section 5
       return [Todo, ...prevTodos];
     });
   };
@@ -86,10 +77,9 @@ function App() {
   // }, 1000);         //this code requires the jquery library
 
   return (
-    <div>
-      <NewTask onAddTodo={addTodoHandler}/>
-  
-      <Tasks todoList={Todos}/>
+    <div className="Outer-Div">
+      <NewTask onAddTodo={addTodoHandler} />
+      <Tasks todoList={Todos} />
     </div>
   );
 }
